@@ -17,12 +17,12 @@ async function renferFetch(city){
 
 function gradusIcon(temp){
     if (temp <= 0){
-        return `<img src="img/snow.svg">`
+        return `./img/snow.svg`
     }
     else if (temp < 15 && temp <= 30){
-        return `<img src="img/rain.svg">`
+        return `./img/rain.svg`
     }
     else{
-        return `<img src="img/sunny.svg">`
+        return `./img/sun.svg`
     }
 }

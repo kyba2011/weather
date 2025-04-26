@@ -14,5 +14,4 @@ async function clickSearch() {
     }
 }
 
-
 searchBtn.addEventListener('click', clickSearch)

@@ -13,7 +13,7 @@ function renderCard(data){
     
     let temp = Math.round(data.main.temp)
     let iconSrc = gradusIcon(temp)
-    weatherIcon.innerHTML = `<img src="${iconSrc}">`
+    weatherIcon.innerHTML = `<img src='${iconSrc}'>`
 
     let cityName = `<h2>${data.name}</h2>`
     let temperatura = `<p class="temperatura">${temp}°C</p>`
